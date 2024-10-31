@@ -60,7 +60,9 @@ export default function Boggs() {
         id="qualified"
       >
         <div className="pb-8">
-          <h3 className="font-bold pb-4">Why I am Qualified (Boggs' Post)</h3>
+          <h3 className="font-bold pb-4 texxt-xl">
+            Why I am Qualified (Boggs' Post)
+          </h3>
           <p className="leading-loose text-justify pb-4">
             With 15 years of experience in product design, I am well-prepared to
             lead design initiatives at the Walt Disney Company. My journey has

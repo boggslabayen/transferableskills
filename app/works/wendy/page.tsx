@@ -60,53 +60,52 @@ export default function Wendy() {
         id="qualified"
       >
         <div className="pb-8">
-          <h3 className="font-bold pb-4">Why I am Qualified (Wendy's Post)</h3>
+          <h3 className="font-bold pb-4 text-xl">
+            Why I am Qualified (Wendy's Post)
+          </h3>
+
           <p className="leading-loose text-justify pb-4">
-            With 15 years of experience in product design, I am well-prepared to
-            lead design initiatives at the Walt Disney Company. My journey has
-            been marked by a deep commitment to the principles of effective
-            design, continually guiding teams to understand its true impact. I
-            am dedicated to fostering growth, refining processes, and inspiring
-            excellence. This commitment has helped me lead efficiently and drive
-            high-quality results across diverse industries, aligning closely
-            with Disney's standards of leadership and innovation.
+            I am qualified for the Staff Experience Designer role with Airbnb
+            for the following reasons:
           </p>
 
           <p className="leading-loose text-justify pb-4">
-            My work is rooted in a user-centered approach, as I am genuinely
-            motivated by understanding and addressing the needs of the people I
-            design for. Empathy is at the core of my process, enabling me to
-            develop solutions that resonate with users on a deeper level. This
-            people-first mindset, combined with a collaborative approach, has
-            allowed me to successfully engage and motivate diverse,
-            multidisciplinary teams, creating an inclusive environment that
-            fosters creativity.
+            <span className="font-bold">COMMUNICATION skill:</span> Having been
+            educated and worked as an investigative journalist, I am used to
+            communicating with people with various backgrounds. I am capable of
+            keeping conversations comfortable and meaningful. This will help me
+            build strong relationships with both my colleagues, stakeholders,
+            and clients.
           </p>
 
           <p className="leading-loose text-justify pb-4">
-            I am passionate about leading design thinking sessions and believe
-            that innovative solutions can arise from anyone on the team. I
-            actively seek diverse perspectives, and my extensive experience
-            collaborating across countries and cultures has equipped me to
-            deliver outstanding results that reflect a wide range of insights
-            and approaches.
+            <span className="font-bold">
+              WORK-SCOPING and PROBLEM-SOLVING skill:
+            </span>{" "}
+            I am experienced as a project manager for various kinds of projects
+            including audio/video production, exhibition curation, and magazine
+            publication. I was able to understand the responsibility and working
+            methods of each member within the team, and also able to manage
+            their workflow within the timeline of the project. Whenever there
+            was a blocker, I was always active, negotiating and finding the best
+            possible solution for the problem.
           </p>
 
           <p className="leading-loose text-justify pb-4">
-            Balancing empathy with analytical thinking, I ground my design
-            decisions in both intuition and data-driven insights. This dual
-            approach ensures that my solutions are not only meaningful but also
-            highly effective. My adaptability and commitment to continuous
-            learning allow me to draw on new experiences, refine processes, and
-            keep my skills aligned with industry trends.
+            <span className="font-bold">STORYTELLING skill:</span> I have
+            expertise in storytelling and I know perfectly well how to convey my
+            message in a clear and powerful way. This will be of great help when
+            I present my idea to others as I am able to make complex concepts
+            easier for my audiences to understand and digest.
           </p>
 
           <p className="leading-loose text-justify pb-4">
-            A natural storyteller, I communicate ideas clearly, inspiring others
-            and fostering collaboration. This ability to articulate vision and
-            strategy effectively makes me a highly qualified candidate to lead
-            product design at Disney, where exceptional storytelling and
-            user-centered innovation are essential.
+            <span className="font-bold">COLLABORATING skill:</span> Throughout
+            my previous working experiences, I was highly involved in
+            collaborative working and I was comfortable in that setting. I enjoy
+            working closely with people with different backgrounds and of
+            various expertise. It is a pleasure for me to see how ideas collide
+            and become new, creative insights.
           </p>
         </div>
       </div>
