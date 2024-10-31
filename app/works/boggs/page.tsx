@@ -34,24 +34,33 @@ export default function Boggs() {
 
       <div className="max-w-screen-xl mx-auto md:py-8 md:px-32">
         <ul className="flex">
-          <Link href="#testimonial">
-            <li className="m-2">Why Am I Qualified</li>
+          <Link href="#qualified">
+            <li className="m-2 hover:text-red-400 hover:font-bold">
+              Why Am I Qualified
+            </li>
           </Link>
 
           <Link href="#testimonial">
-            <li className="m-2">Testimonial</li>
+            <li className="m-2 m-2 hover:text-red-400 hover:font-bold">
+              Testimonial
+            </li>
           </Link>
 
-          <Link href="#testimonial">
-            <li className="m-2">Job Posting</li>
+          <Link href="#posting">
+            <li className="m-2 m-2 hover:text-red-400 hover:font-bold">
+              Job Posting
+            </li>
           </Link>
         </ul>
       </div>
 
       {/* Why am I Qualified */}
-      <div className="max-w-screen-xl mx-auto md:py-8 py-2 md:px-32">
+      <div
+        className="max-w-screen-xl mx-auto md:py-8 py-2 md:px-32"
+        id="qualified"
+      >
         <div className="pb-8">
-          <h3 className="font-bold pb-4">Why I am Qualified</h3>
+          <h3 className="font-bold pb-4">Why I am Qualified (Boggs' Post)</h3>
           <p className="leading-loose text-justify pb-4">
             With 15 years of experience in product design, I am well-prepared to
             lead design initiatives at the Walt Disney Company. My journey has
@@ -119,33 +128,64 @@ export default function Boggs() {
             Wendy’s Testimonial
           </h3>
         </div>
-        <p className=" mt-4 leading-10 text-white">
-          I am pleased to recommend Wendy for the Staff Experience Designer role
-          at Airbnb. Wendy’s background as a project manager has provided her
-          with versatile skills in building strong relationships and fostering
-          meaningful connections with a diverse range of people, including
-          clients and colleagues. She adapts quickly to new environments and
-          handles challenges with resilience, as shown when she joined our class
-          a few weeks late and seamlessly integrated on her first day. Her
-          ability to collaborate with various teams and stakeholders is a
-          valuable asset, enabling her to engage effectively across disciplines.
-          In addition to her relationship-building skills, Wendy is a strategic
-          thinker with a creative vision and an investigative approach to
-          problem-solving. Her journalism experience has enhanced her ability to
-          ask insightful questions and to approach challenges with empathy,
-          equipping her to develop thoughtful, user-centered solutions. Wendy’s
-          natural storytelling ability also makes her an influential
-          communicator, allowing her to share ideas persuasively and inspire
-          others. These skills, combined with her confidence in making sound
-          decisions and her strong sense of accountability, make Wendy an
-          exceptional candidate for Airbnb. She brings a unique blend of
-          adaptability, empathy, and strategic insight that will enable her to
-          create meaningful staff experiences and contribute positively to the
-          team.
+        <p className=" pt-4 leading-10 text-white">
+          Boggs is highly-qualified for this job for the following reasons:
+        </p>
+
+        <p className=" pt-4 leading-10 text-white">
+          An <span className="font-bold">EXPERIENCED professional:</span> Boggs
+          has 10+ years of experience working as a professional in the user
+          experience design field. He is highly experienced with the process of
+          designing products from bringing out the concepts to their final
+          launch, and equipped with various industry related skills including
+          UX/UI design, user research, strategic planning and prototyping. He is
+          also equipped with the software and tools required by the job posting.
+        </p>
+
+        <p className=" pt-4 leading-10 text-white">
+          A <span className="font-bold">reliable LEADER:</span> Boggs has worked
+          as a UX design lead role for more than 5 years. He excels in
+          leadership, and also in time management skills. He is able to plan
+          tasks ahead, manage workflows for both himself and his team members.
+          As a team leader, Boggs is always highly-motivated, reliable, and
+          approachable. He would test out the tasks himself before handing over
+          to his team members, making sure the tasks are doable for them.
+        </p>
+
+        <p className=" pt-4 leading-10 text-white">
+          A <span className="font-bold">talented COMMUNICATOR:</span> Boggs
+          possesses outstanding communication skills. He acts as the icebreaker
+          and saves people around from awkwardness. He is an active listener. He
+          always pays full attention when others are speaking, provides positive
+          feedbacks, and asks insightful questions, making the conversation
+          smooth and meaningful.
+        </p>
+
+        <p className=" pt-4 leading-10 text-white">
+          A <span className="font-bold">natural STORYTELLER:</span> Boggs has
+          immersed himself in storytelling from a young age. He enjoys
+          storytelling, and believes in the power of it. He has used it as a
+          tool when introducing an idea or product to the team he worked with
+          and to his clients, making it easier for them to understand the
+          concept.
+        </p>
+
+        <p className=" pt-4 leading-10 text-white">
+          A <span className="font-bold">passionate PROBLEM-SOLVER:</span> Boggs
+          enjoys the process of problem-solving and the sense of achievement he
+          gets out of it. He is proactive and would love to test out various
+          possibilities in order to find better solution.
+        </p>
+
+        <p className=" pt-4 leading-10 text-white">
+          Given that Boggs is an experienced professional in the industry and
+          his capabilities meet the requirements of the Lead Product Designer
+          role posted by Disney, I strongly believe that he should be hired for
+          this job.
         </p>
       </div>
 
-      <div className="max-w-screen-xl mx-auto md:py-8 md:px-32">
+      <div className="max-w-screen-xl mx-auto md:py-8 md:px-32" id="posting">
         <h3 className="text-xl font-bold">Job Post</h3>
         <JobPosting />
       </div>

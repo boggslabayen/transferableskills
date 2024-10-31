@@ -34,11 +34,11 @@ export default function JobPosting() {
           </li>
 
           <li className="pb-4">
-            Cross-Functional Collaboration: Collaboration is key, with
-            responsibilities across departments like Engineering, HR, Talent
-            Acquisition, Disney Experiences, and ESPN. The role will require
-            skills in aligning design goals with technical and business
-            objectives.
+            <span className="font-bold">Cross-Functional Collaboration:</span>{" "}
+            Collaboration is key, with responsibilities across departments like
+            Engineering, HR, Talent Acquisition, Disney Experiences, and ESPN.
+            The role will require skills in aligning design goals with technical
+            and business objectives.
           </li>
         </ul>
       </div>
@@ -48,28 +48,34 @@ export default function JobPosting() {
         <p className="font-bold text-md py-4">Primary Responsibilities</p>
         <ul className="list-disc list-inside">
           <li className="pb-4">
-            User-Centered Design: Leading user research, analyzing trends, and
-            collecting feedback to inform product design is central. This
-            requires experience with user-centered methodologies and strong
-            data-driven design skills.
+            <span className="font-bold">User-Centered Design:</span> Leading
+            user research, analyzing trends, and collecting feedback to inform
+            product design is central. This requires experience with
+            user-centered methodologies and strong data-driven design skills.
           </li>
 
           <li className="pb-4">
-            Design Strategy and Execution: The designer will define product
-            design strategies, ensure alignment with business goals, and create
-            intuitive, visually consistent interfaces that enhance usability.
+            <span className="font-bold">Design Strategy and Execution:</span>{" "}
+            The designer will{" "}
+            <span className="font-bold">
+              define product design strategies, ensure alignment with business
+              goals, and create intuitive, visually consistent interfaces
+            </span>{" "}
+            that enhance usability.
           </li>
 
           <li className="pb-4">
-            Prototyping and Testing: Developing high-fidelity prototypes,
-            conducting usability testing, and iterating designs to enhance
-            usability and satisfaction is critical.
+            <span className="font-bold">Prototyping and Testing:</span>{" "}
+            Developing high-fidelity prototypes, conducting usability testing,
+            and iterating designs to enhance usability and satisfaction is
+            critical.
           </li>
 
           <li className="pb-4">
-            Design Systems Management: This role also involves maintaining and
-            contributing to design systems and component libraries, ensuring
-            consistency and scalability across digital platforms.
+            <span className="font-bold">Design Systems Management:</span> This
+            role also involves maintaining and contributing to design systems
+            and component libraries, ensuring consistency and scalability across
+            digital platforms.
           </li>
         </ul>
       </div>
@@ -79,28 +85,31 @@ export default function JobPosting() {
         <p className="font-bold text-md py-4">Required Qualifications</p>
         <ul className="list-disc list-inside">
           <li className="pb-4">
-            Experience: The role requires 7+ years of product design experience
-            with a track record in leading projects end-to-end, creating and
-            testing high-quality design outputs, and working in complex,
-            multi-stakeholder environments.
+            <span className="font-bold">Experience:</span> The role requires 7+
+            years of product design experience with a track record in leading
+            projects end-to-end, creating and testing high-quality design
+            outputs, and working in complex, multi-stakeholder environments.
           </li>
 
           <li className="pb-4">
-            Technical Proficiency: Strong proficiency in tools like Adobe
-            Creative Suite, Figma, and Sketch, along with a solid grasp of ADA
-            and WCAG standards for accessibility.
+            <span className="font-bold">Technical Proficiency: </span> Strong
+            proficiency in tools like Adobe Creative Suite, Figma, and Sketch,
+            along with a solid grasp of ADA and WCAG standards for
+            accessibility.
           </li>
 
           <li className="pb-4">
-            Communication and Collaboration: Exceptional visual communication
-            skills are essential, with an ability to advocate for design
-            solutions and explain decisions to non-design stakeholders.
+            <span className="font-bold">Communication and Collaboration:</span>{" "}
+            Exceptional visual communication skills are essential, with an
+            ability to advocate for design solutions and explain decisions to
+            non-design stakeholders.
           </li>
 
           <li className="pb-4">
-            Responsive Design Knowledge: Familiarity with responsive design
-            principles and a strong understanding of interaction and visual
-            design principles are essential.
+            <span className="font-bold">Responsive Design Knowledge:</span>{" "}
+            Familiarity with responsive design principles and a strong
+            understanding of interaction and visual design principles are
+            essential.
           </li>
         </ul>
       </div>
