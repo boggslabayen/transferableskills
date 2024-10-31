@@ -16,6 +16,8 @@ const projectCards = [
     image: "/project_assets/Airbnb.png",
     projectTitle: "Staff Experience Designer",
     projectDescription: "Airbnb",
+    projectBlurb:
+      "The Staff Experience Designer role with Airbnb is centered around design leadership, innovation, and strategic partnerships.",
     link: "/wendy",
   },
   {
@@ -23,11 +25,14 @@ const projectCards = [
     image: "/project_assets/Disney.png",
     projectTitle: "Product Design Lead",
     projectDescription: "Walt Disney",
+    projectBlurb:
+      "Lead Product Designer role with The Walt Disney Company is for someone experienced in leading and executing digital product design strategies that impact employees across the entire company. ",
     link: "/boggs",
   },
 ];
 
 function createProjectCards(projectCards: {
+  projectBlurb: ReactNode;
   id: Key | null | undefined;
   link: any;
   image: string | StaticImport;
@@ -74,6 +79,9 @@ function createProjectCards(projectCards: {
           </h3>
           <p className="text-md font-normal pb-2">
             {projectCards.projectDescription}
+          </p>
+          <p className="text-md font-normal pb-2">
+            {projectCards.projectBlurb}
           </p>
         </div>
       </Link>
